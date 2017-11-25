@@ -25,27 +25,32 @@
 }
 
 .hero {
-    height: 600px;
-    background-image: url('../images/splash.jpg');
+    height: 350px;
+    background-color: blue;
+    /*background-image: url('../images/splash.jpg');*/
     background-position: center center;
     background-size: cover;
 }
 
-.afbeelding {
-    background-position: center center;
-    background-size: cover;
+header {
+    font-family: 'Karla', sans-serif;
 }
 
-#afbeelding-jeep {
-    background-image: url('../images/splash2.jpg');
+.col-sm-12, home {
+    height: 250px; 
+    background-color: red;"
 }
 
-#afbeelding-jeep-achter {
-    background-image: url('../images/splash3.jpg');
+.col-sm-4, home {
+    
 }
 
-#afbeelding-jeep-wit {
-    background-image: url('../images/splash4.jpg');
+.col-sm-4 {
+    height: 250px;
+}
+
+.col-sm-6 {
+    height: 350px;
 }
 
 
