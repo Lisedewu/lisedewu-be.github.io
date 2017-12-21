@@ -164,8 +164,9 @@ h6 {
 }
 
 .col2food1 {
-    padding: 20px;
+    padding: 10px;
 }
+    
 
 .btn-primary {
     color: #fff;
@@ -212,6 +213,10 @@ h6 {
 
 .navbar a {
     color: #658c80;
+}
+
+.navbar a:hover {
+    color:  rgb(223, 162, 145);
 }
 
 .sprite {
