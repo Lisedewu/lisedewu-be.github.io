@@ -70,7 +70,10 @@ h6 {
 }
 
 .quotehome {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .col12home1 {
@@ -79,7 +82,7 @@ h6 {
 }
 
 .borderquote {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -226,7 +229,6 @@ h6 {
 
 .social-icons li {
     display: inline-block;
-    margin: 10px;
 }
 
 .sprite {
@@ -310,6 +312,24 @@ h6 {
     color:  #658c80;
 }
 
+.merknaam {
+    font-family: 'Karla', sans-serif;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from {
+      margin-left:50%;
+      width:300%
+    }
+    
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
 
 /* Small devices (landscape phones, 576px and up) */
 
