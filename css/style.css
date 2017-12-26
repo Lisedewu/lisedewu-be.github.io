@@ -70,10 +70,7 @@ h6 {
 }
 
 .quotehome {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 .col12home1 {
@@ -82,10 +79,8 @@ h6 {
 }
 
 .borderquote {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
     border-style: solid;
     border-width: medium;
     border-color: rgb(169, 186, 180);
@@ -94,7 +89,7 @@ h6 {
 .borderquote1 {
     margin-left: 20px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-right: 10px;
     border-style: solid;
     border-width: medium;
@@ -148,6 +143,13 @@ h6 {
     padding-right: 100px;
 }
 
+.rownieuwsbrief {
+    padding-bottom: 20px;
+}
+.nieuwsbrief {
+    padding-bottom: 20px;
+}
+
 .col12food1 {
     padding-bottom: 10px;
     background-color: rgb(208, 216, 213);
@@ -159,6 +161,7 @@ h6 {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -170,7 +173,6 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px
 }
-    
 
 .btn-primary {
     color: #fff;
@@ -195,16 +197,26 @@ h6 {
     padding-top: 20px;
 }
 
-.col4footer1 {
-    padding: 20px;
+.rowfooter {
+    padding-top: 30px;
 }
 
-.col4footer2 {
+.col6footer1 {
     padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.col4footer3 {
+.col6footer2 {
     padding: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.col6footer4 {
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 .kaart {
@@ -220,15 +232,18 @@ h6 {
 }
 
 .navbar a:hover {
-    color:  white;
+    color: white;
 }
 
 .social-icons {
     list-style-type: none;
+    -webkit-padding-start: 0px;
 }
 
 .social-icons li {
     display: inline-block;
+    list-style-type: disc;
+    padding-right: 15px;
 }
 
 .sprite {
@@ -269,7 +284,6 @@ h6 {
     background-position-y: -32px;
 }
 
-
 .filmpje {
     height: 275px;
     padding-left: 20px;
@@ -304,12 +318,17 @@ h6 {
     border: none;
 }
 
-.titelkleur {
-    color:rgb(212, 118, 103);
+.lijn {
+    padding-top: 10px;
 }
+
+.titelkleur {
+    color: rgb(212, 118, 103);
+}
+
 .input-group-addon {
     border: none;
-    color:  #658c80;
+    color: #658c80;
 }
 
 .merknaam {
@@ -319,17 +338,18 @@ h6 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 @keyframes slidein {
     from {
-      margin-left:50%;
-      width:300%
+        margin-left: 50%;
+        width: 300%
     }
-    
     to {
-      margin-left:0%;
-      width:100%;
+        margin-left: 0%;
+        width: 100%;
     }
-  }
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
