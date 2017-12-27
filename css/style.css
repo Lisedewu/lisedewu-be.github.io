@@ -147,6 +147,7 @@ h6 {
 .rownieuwsbrief {
     padding-bottom: 20px;
 }
+
 .nieuwsbrief {
     padding-bottom: 20px;
 }
@@ -265,7 +266,7 @@ h6 {
     background-position-x: 128px;
 }
 
-.sprite-twitter {
+.sprite-youtube {
     background-position-x: 64px;
 }
 
@@ -277,7 +278,7 @@ h6 {
     background-position-y: -32px;
 }
 
-.sprite-twitter:hover {
+.sprite-youtube:hover {
     background-position-y: -32px;
 }
 
@@ -335,6 +336,7 @@ h6 {
 .naarpagina {
     color: rgb(212, 118, 103);
 }
+
 .naarpagina:hover {
     color: rgb(223, 162, 145);
 }
