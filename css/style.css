@@ -250,6 +250,7 @@ h6 {
 
 .navbar {
     background: transparent;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -257,7 +258,8 @@ h6 {
 }
 
 .navbar a:hover {
-    color: white;
+    color: rgb(216, 132, 115);
+    font-weight: bold;
 }
 
 .social-icons {
