@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .article {
@@ -250,7 +250,7 @@ h6 {
 
 .navbar {
     background: transparent;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .navbar a {
@@ -259,7 +259,7 @@ h6 {
 
 .navbar a:hover {
     color: white;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .social-icons {
@@ -331,7 +331,7 @@ h6 {
 
 .row value {
     font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .row input {
@@ -339,14 +339,14 @@ h6 {
     border: none;
     color: rgb(223, 162, 145);
     font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .row Textarea {
     background-color: rgb(216, 222, 220);
     border: none;
     font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    font-weight: medium;
 
 }
 
