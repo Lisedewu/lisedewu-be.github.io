@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     font-family: 'Quicksand', sans-serif;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .article {
@@ -249,7 +249,7 @@ h6 {
 
 .navbar {
     background: transparent;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -258,12 +258,12 @@ h6 {
 
 .navbar a:hover {
     color: white;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .navbar a:active {
     color: white;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .social-icons {
@@ -333,24 +333,23 @@ h6 {
     padding-top: 34px;
 }
 
-.row value {
+.row placeholder {
     font-family: 'Quicksand', sans-serif;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .row input {
     background-color: rgb(216, 222, 220);
     border: none;
-    color: rgb(223, 162, 145);
     font-family: 'Quicksand', sans-serif;
-    font-weight: medium;
+    font-weight: bold;
 }
 
-.row Textarea {
+.row textarea {
     background-color: rgb(216, 222, 220);
     border: none;
     font-family: 'Quicksand', sans-serif;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .lijn {
