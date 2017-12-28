@@ -209,7 +209,6 @@ h6 {
     background-color: rgb(208, 216, 213);
 }
 
-
 .col4plaats1 {
     padding-top: 20px;
 }
@@ -258,6 +257,11 @@ h6 {
 }
 
 .navbar a:hover {
+    color: white;
+    font-weight: medium;
+}
+
+.navbar a:active {
     color: white;
     font-weight: medium;
 }
@@ -347,7 +351,6 @@ h6 {
     border: none;
     font-family: 'Quicksand', sans-serif;
     font-weight: medium;
-
 }
 
 .lijn {
@@ -383,6 +386,7 @@ h6 {
     padding: 10px;
     padding-bottom: 0px;
 }
+
 .coltruck2 {
     padding: 10px;
     padding-top: 0px;
