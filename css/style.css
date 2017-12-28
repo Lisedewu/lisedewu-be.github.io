@@ -11,6 +11,7 @@ h4,
 h5,
 h6 {
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .article {
@@ -75,7 +76,7 @@ h6 {
 
 .col12home1 {
     padding-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .borderquote {
@@ -117,12 +118,33 @@ h6 {
 }
 
 .col12menu1 {
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.col12menu2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
 .col6menu1 {
-    padding: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.col6menu2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .col12plaats {
@@ -186,6 +208,7 @@ h6 {
 .btn-primary:hover {
     background-color: rgb(208, 216, 213);
 }
+
 
 .col4plaats1 {
     padding-top: 20px;
@@ -306,6 +329,7 @@ h6 {
 
 .row value {
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .row input {
@@ -313,11 +337,15 @@ h6 {
     border: none;
     color: rgb(223, 162, 145);
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .row Textarea {
     background-color: rgb(216, 222, 220);
     border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
 }
 
 .lijn {
@@ -341,8 +369,21 @@ h6 {
     color: rgb(223, 162, 145);
 }
 
-.coltruck {
+.boldoranje {
+    color: rgb(223, 162, 145);
+}
+
+.bolddonkeroranje {
+    color: rgb(212, 118, 103);
+}
+
+.coltruck1 {
     padding: 10px;
+    padding-bottom: 0px;
+}
+.coltruck2 {
+    padding: 10px;
+    padding-top: 0px;
 }
 
 .merknaam {
